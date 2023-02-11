@@ -59,7 +59,7 @@ const MintPage = () => {
       let imgObj = img;
 
       //handle IPFS
-      // await toast.promise(
+      // await toast.promise (
       // async () => {
       //pin image
       let { path } = await ipfs.add(imgObj);
