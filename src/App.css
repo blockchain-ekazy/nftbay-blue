@@ -36,3 +36,8 @@
     transform: rotate(360deg);
   }
 }
+.MuiBox-root.MuiBox-root-38.makeStyles-leftMint-19,
+.MuiBox-root.MuiBox-root-49.makeStyles-rightMint-20,
+.makeStyles-roundBox-32 {
+  max-width: 90vw !important;
+}

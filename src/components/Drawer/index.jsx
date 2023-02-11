@@ -13,29 +13,41 @@ const Drawerbtn = ({ open, handleClose }) => {
             <ArrowForwardIosIcon onClick={handleClose} />
           </ListItem>
           <ListItem button>
-            <ListItemText primary={"Create"} className={classes.listItem} />
+            <a href="/mintpage">
+              <ListItemText primary={"Create"} className={classes.listItem} />
+            </a>
           </ListItem>
 
           <ListItem button>
-            <ListItemText primary={"Home"} className={classes.listItem} />
+            <a href="/">
+              <ListItemText primary={"Home"} className={classes.listItem} />
+            </a>
           </ListItem>
-          <ListItem button>
+          {/* <ListItem button>
             <ListItemText
               primary={"MarketPlace"}
               className={classes.listItem}
             />
+          </ListItem> */}
+          <ListItem button>
+            <a href="/explore">
+              <ListItemText primary={"Explore"} className={classes.listItem} />
+            </a>
           </ListItem>
           <ListItem button>
-            <ListItemText primary={"Explore"} className={classes.listItem} />
+            <a href="/about">
+              <ListItemText primary={"About Us"} className={classes.listItem} />
+            </a>
           </ListItem>
           <ListItem button>
-            <ListItemText primary={"About Us"} className={classes.listItem} />
+            <a href="/faqs">
+              <ListItemText primary={"FAQ"} className={classes.listItem} />
+            </a>
           </ListItem>
           <ListItem button>
-            <ListItemText primary={"FAQ"} className={classes.listItem} />
-          </ListItem>
-          <ListItem button>
-            <ListItemText primary={"CONTACT"} className={classes.listItem} />
+            <a href="/contactus">
+              <ListItemText primary={"CONTACT"} className={classes.listItem} />
+            </a>
           </ListItem>
         </Drawer>
       </Box>
